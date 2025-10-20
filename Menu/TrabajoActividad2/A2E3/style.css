@@ -1,0 +1,31 @@
+body {
+    background-color: #E3B530;
+    font-weight: 900;
+    padding: 35px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f71705;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #2b7fc3;
+}
+
+h1:hover {
+    color: #AA05F7;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h3 {
+    color: #d62710;
+    text-decoration: none;
+    text-decoration: underline;
+}
