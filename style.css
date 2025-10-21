@@ -33,8 +33,6 @@ a {
       border-radius: 8px;
       font-size: 1.05em;
       font-weight: 600;
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       display: block;
 }
 
