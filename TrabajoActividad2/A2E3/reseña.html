@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reseña de un plato</title>
+
+    <meta name="author" content="Rafa Almansa Redondo" />
+    <meta
+      name="description"
+      content="En Peces y Platos tenemos una de las mayores variedades de marisco de España"
+    />
+    <meta name="keywords" content="peces, mariscos, recetas, comida" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Reseña de un plato</h1>
+    </header>
+
+    <form action="respuesta.html" method="get" class="formulario-reserva">
+      <table class="tablareserva">
+        <tr>
+          <td>
+            <label for="nombre">Su nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </td>
+
+          <td>
+            <label for="correo">Su correo electrónico</label>
+            <input type="email" id="correo" name="correo" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="platillo">Elige un platillo:</label></td>
+
+          <td>
+            <select id="platillo" name="platillo">
+              <option value="">--Selecciona--</option>
+              <option value="tacos">Tacos</option>
+              <option value="ceviche">Ceviche</option>
+              <option value="salmon">Salmón</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <label for="mensaje">Su reseña:</label>
+            <input type="text" id="mensaje" name="mensaje" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="comentario">Comentario:</label></td>
+          <td>
+            <textarea
+              id="comentario"
+              name="comentario"
+              rows="15"
+              cols="60"
+              placeholder="Escribe aquí tu comentario (aprox. 500 palabras)"
+              maxlength="4000"
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+
+      <button type="submit">ENVIAR MENSAJE</button>
+    </form>
+
+    <div>
+      <a href="../../index.html" class="menu">Volver al menú</a>
+      <a href="index.html" class="menu">Volver al restaurante</a>
+    </div>
+
+    <footer>2025 IES INCA GARCILASO — Peces & Platos</footer>
+  </body>
+</html>
