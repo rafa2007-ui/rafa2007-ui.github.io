@@ -1,0 +1,17 @@
+.titulo-activo{
+font-size:40px;
+}
+
+table{
+border-collapse:collapse;
+}
+
+td{
+border:1px solid black;
+padding:10px;
+cursor:pointer;
+}
+
+.amarillo{
+background:yellow;
+}
